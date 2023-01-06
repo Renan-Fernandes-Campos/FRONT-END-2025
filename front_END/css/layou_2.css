@@ -1,0 +1,150 @@
+
+/* 
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.html {
+	margem: 0;
+	preenchimento: 0;
+	tamanho da fonte: 62,5%; /* equivalente a 10px */
+}
+
+img {
+  max-largura: 100%;
+  altura: auto;
+}
+
+corpo {
+	cor de fundo: branco;
+}
+
+h1 {
+	tamanho da fonte: 2rem;
+}
+
+h2 {
+	tamanho da fonte: 1.8rem;
+}
+
+forma {
+	plano de fundo: #eee;
+	preenchimento: 10px;
+}
+
+formulário div {
+	plano de fundo: #fff;
+	borda inferior: 1px sólido #33f;
+	margem: 1rem;
+	preenchimento: 2rem;
+}
+
+etiqueta {
+	margem-fundo: 1rem;
+	tamanho da fonte: 1.4rem; 
+	família de fontes: sans-serif;
+	peso da fonte: negrito;
+	cor: #66F;
+}
+
+entrada {
+	preenchimento: 1rem;
+}
+
+[type="text"], [type="email"], textarea, rótulo {
+	display: bloco;
+	largura: 100%;
+}
+
+cabeçalho {
+  cor de fundo: #333;
+  preenchimento: 30px;
+  alinhamento de texto: esquerda;
+  tamanho da fonte: 35px;
+  cor: branco;
+}
+
+Nav {
+  /* cor de fundo: tomate; */
+  flutuação: esquerda; /* muda a regra de quebra de linha */
+  largura: 30%;
+  preenchimento: 20px;
+}
+
+nav ul {
+  tipo de estilo de lista: nenhum;
+  preenchimento: 0;
+}
+
+artigo {
+  /* cor de fundo: amarelo; */
+  flutuação: esquerda;
+  preenchimento: 20px;
+  largura: 70%;
+}
+
+seção::depois {
+  conteúdo: "";
+  display: tabela;
+  claro: ambos;
+}
+
+rodapé {
+  cor de fundo: #eee;
+  preenchimento: 10px;
+  alinhamento de texto: centro;
+  cor: branco;
+}
+
+. coluna {
+  display: bloco;
+  largura: 50%;
+  flutuação: esquerda;
+  preenchimento: 5px;
+  /* antecedentes: #eee;
+ borda: 1px sólido #333; */
+  
+}
+
+. coluna-3 {
+  colunas: 100px 2;
+  largura: 50%;
+}
+
+. coluna-100w {
+  largura: 100%;
+}
+
+iframe {
+  largura: 100%;
+}
+
+
+/* Mobile First */
+
+
+/*Tabuleta*/
+@media (largura mínima: 769px) {
+  
+  
+
+}
+
+@media (largura máxima: 768px) {
+
+  
+  
+}
+
+/* Smartphone */
+@media (largura máxima: 425px){
+    navegação,
+    artigo,
+ . coluna {
+      largura: 100%;
+      largura mínima: 320px;
+    }
+}

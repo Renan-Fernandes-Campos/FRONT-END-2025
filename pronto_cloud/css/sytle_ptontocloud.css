@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(245, 238, 238);
+    font-family: 'Roboto', sem serifa;
+    overflow: ;
+}
+.main-container {
+    display: block;
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+header {
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border-bottom: solid #254159;
+}
+section {
+    background-color: white;
+    font-size: 1.5rem;
+    display: table;
+    content: "";
+    clear: both;
+    width: 100;
+}
+section nav {
+    display: block;
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+}
+  section article {
+    display: block;
+    float: left;
+    width: 69%;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+article img {
+    width: 700px;
+}
+h1 {
+    font-size: 2.3rem;
+    color:#204a6f;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 2.1rem;
+    color:#204a6f;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 2.rem;
+    color:#204a6f;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+ h4 {
+    font-size: 1.5rem;
+    color:#204a6f;  
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+p {
+   line-height: 1.4;
+   text-align: justify;
+   color: dimgrey;
+}
+ol { 
+    margin-left: 40px;
+}
+ol li {
+    color: dimgrey;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+ul li {
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 2px;
+    margin-left: 20px;
+    background-color: rgb(245, 238, 238);
+}
+ nav li:hover {
+    background-color:#ccc;
+ }
+nav a {
+ color: #254159;
+ text-decoration: none;
+}
+ nav a:hover {
+    color: red;
+ }
+footer {
+    background-color: #254159;
+    font-size: 1.2rem;
+    padding: 20px;
+    display: block;
+    width: 100%;
+}
+ footer p {
+    color: white;
+ }
+  footer small {
+    display: block;
+  }
+.imagem {
+    filter: drop-shadow(8px 8px 7px #ccc);
+    margin-bottom: 10px;
+}
+
+/*desenvolvedor-Renan Fernanades*/
