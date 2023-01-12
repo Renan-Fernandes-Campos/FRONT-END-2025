@@ -17,7 +17,7 @@ ex: Arquivo A | Versão 1 | Versão 2
 ### Passos:
 No git:
 - copiar a url do repositório do git hub
-No VS Code:
+No VS Code: .
 - Abrir o folder do projeto
 - Abrir o terminal
 Comandos: 
