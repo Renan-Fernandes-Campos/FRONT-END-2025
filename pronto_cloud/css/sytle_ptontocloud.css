@@ -45,6 +45,7 @@ section nav {
  section nav a{
     color: #092137;
     text-decoration:  none;
+    font-weight: bold;
  }
  section nav a:hover{
     color: blue;
