@@ -59,11 +59,12 @@ section article {
     line-height: 1.2;
 }
 section img {
-    max-width: 580px;
+    width: 100%;
     filter: drop-shadow(8px 8px 11px #333);
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     margin-top: 10px;
     margin-bottom: 10px;
+    height: auto;
 }
 h1 {
     color: #204a6f;
@@ -98,6 +99,21 @@ p {
     height:auto;
     padding: 10px;
 }
+ .container_2 {
+    background-color: rgb(221, 214, 214);
+    display: block;
+    margin: 20px;
+ }
+ 
+ #h1 {
+    font-size: 1.6rem;
+    color: #092137;
+ }
+
+#p {
+    color: #092137;
+}
+
 ol li {
     font-size: 1.4rem;
     color: dimgrey;
@@ -124,12 +140,11 @@ footer p {
  }
 
  @media (max-width:425Px){
-    article, nav, .container, .main-container, footer {
+    article, nav, .container, .main-container, footer{
         width: 100%;
         min-width:unset;
     }
  }
-
 
 /*Style i*/
  @media (max-width:820Px){
