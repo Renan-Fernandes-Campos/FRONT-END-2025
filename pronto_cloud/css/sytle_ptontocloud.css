@@ -105,15 +105,6 @@ p {
     margin: 20px;
  }
  
- #h1 {
-    font-size: 1.6rem;
-    color: #092137;
- }
-
-#p {
-    color: #092137;
-}
-
 ol li {
     font-size: 1.4rem;
     color: dimgrey;
@@ -130,6 +121,13 @@ footer p {
  footer small {
     display: block;
  }
+
+/*style formulario*/
+
+.cog-abuse ul {
+    visibility: hidden !important;
+}
+
 
 /*Style smartphone*/
 @media (max-width:360Px){
