@@ -75,4 +75,5 @@ Exemplos:
 - [supporte/] 
 - version tag prefix [v] para acrescentar o "V" ao versionmanto.
 - Comando: git flow feature finish + [nome da feature]
-### -------------------------Continua!!!--------------------------
+
+### -------------------------Continua!!!!!!!!!!!--------------------------
