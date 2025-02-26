@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     font-size: 62.5%;
 }
@@ -13,7 +12,7 @@ html {
 body {
     display: block;
     width: 100%;
-    font-family: 'Ubuntu', sem serifa;
+    font-family:Arial, Helvetica, sans-serifs;
 }
 section::after {
     display: block;
@@ -22,86 +21,90 @@ section::after {
 }
 header {
     width: 100%;
-    border-bottom: 3px solid #090919;
-    height: auto;
+    border-bottom: 3px solid #254159;
     padding: 20px;
 }
+ header img {
+    width: 200px;
+    margin-left: 20px;
+ }
 section nav {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 10px;
     font-size: 1.4rem;
-    margin-top: 10px;
+    margin: 15px 20px;
 }
  section nav li {
-    background-color: rgb(221, 214, 214);
-    margin: 2px;
-    padding: 10px;
+    background-color: #ccc;
+    margin: 5px;
+    padding: 10px 20px;
 }
 section nav li:hover {
-    background-color: rgb(197, 213, 213);
+    background-color: rgb(197, 198, 213);
 }
 section nav a{
-    color: #092137;
-    text-decoration:  none;
+    color: #254159;
+    text-decoration: none;
     font-weight: bold;
 }
 section nav a:hover{
-    color: blue;
+    color:#0a81f0;
 }
 section article {
     display: block;
     float: left;
     width: 75%;
-    padding: 10px;
+    padding: 20px 10px 0px 10px;
     font-size: 1.4rem;
     line-height: 1.2;
 }
 section img {
-    width: 96%;
+    width: 60%;
     filter: drop-shadow(8px 8px 11px #333);
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     height: auto;
 }
+#h1 {
+    margin-left: 337px;
+}
+#p {
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
 h1 {
-    color: #204a6f;
-    font-size: 2.3rem;
-    padding: 10px;
+    color: #254159;
+    font-size: 2.5rem;
+    padding:10px 0px 5px 10px;
 }
 h2  {
-    color: #204a6f;
+    color: #254159;
     font-size: 2.1rem;
-    padding: 10px;
+    padding:10px 0px 5px 10px;
 }
 h3 {
-    color: #204a6f;
+    color: #254159;
     font-size: 2rem;
-    padding: 10px;
+    padding:10px 0px 5px 10px;
 }
 h4 {
     color: #204a6f;
     font-size:  1.5rem;
-    padding: 10px;
+    padding:10px 0px 5px 10px;
 }
 p {
     color: dimgrey;
-    font-size:  1.5rem;
+    font-size:  1.3rem;
     text-align: justify;
-    margin: 6px;
-    margin-bottom: 30px;
+    margin: 6px 30px 6px 10px;
 }
 .container {
     background-color: #092137;
     width: 100%;
     height:auto;
     padding: 10px;
-}
-.container_2 {
-    background-color: rgb(221, 214, 214);
-    display: block;
-    margin: 20px;
 }
 ol li {
     font-size: 1.4rem;
@@ -115,15 +118,14 @@ ol li {
 footer p {
     color: white;
     font-size: 1.10em;
+    line-height: 1.3;
 }
 footer small {
     display: block;
 }
 .controle {
     width: 100%;
-    background-color: rgb(221, 214, 214);
     display: block;
-    margin-top: 10Px;
 }
 /*style formulario*/
 .cognito {
