@@ -9,6 +9,7 @@
 /   dividir
 %   resto de divisão
 ```
+
 ## Comparadores matemáticos: teste lógico, retorno booleano (true / false):
 ```
 <    menor que
@@ -16,6 +17,7 @@
 <=   menor ou igual
 >=   maior ou igual
 ```
+
 ##### Exemplos 
 ```
 a = 5
@@ -50,8 +52,8 @@ a = 4
 ## Operadores de lógica e junção lógica
 ```
 !       NÃO (NOT)
-&&      E (AND)
-||      Ou (OR)
+&&      E (AND) as duas sentenças tem que ser verdadeiras para ser (treu)
+||      Ou (OR) apenas uma das sentenças precisa ser verdadeira para ser (true)
 ```
 
 O sinal de exclamação (!) é o operador NOT (não), utilizado para negar a sentença que vem na sequência. 
@@ -79,11 +81,12 @@ var meuCarro = cor == "preto" ? "preto" : "branco";
 
 ## If
 ```
-if (...) { 
-    ...
+if (condição lógica) { 
+    executado
 }
 ```
-## Else 
+
+## Else if
 ```
 else {
 }
@@ -117,7 +120,7 @@ if (cor == "preto") {
 }
 ```
 
-## Switch
+## Switch = "CASO"
 ```
 switch (cor) {
     case 'branco' : 
@@ -134,7 +137,6 @@ switch (cor) {
 } 
 ```
 
-
 ## Cálculo média de aluno
 ```
 var nota1 = 10;
@@ -150,7 +152,7 @@ if( media >= 8 ) {
 ```
 
 ## Laços de Repetição (loops)
-for([expressaoInicial]; [condicao]; [incremento]) {
+for([expressaoInicial]; [condicao]; [incremento]) {  
     [execucao]
 }
 
@@ -184,11 +186,10 @@ for(km = 0; km <= revisao; km++ ){
     console.log("apenas " + km + "kms então pode rodar");
 }
 ```
-
 ### Cálculo de média de alunos
 ```
-var alunos = [
-    [6, 7, 8, 6],
+var alunos = [              "representa o universo dos alunos!!!"
+    [6, 7, 8, 6],           "as notas de cada aluno!!!"
     [8, 5, 6, 8],
     [10, 6, 8, 7],
     [8, 8, 8, 8],
@@ -212,9 +213,7 @@ for (var i = 0; i < alunos.length; i++){
     console.log("Media: " + media + " - " + resultado);
 }
 ```
-
 ## Funções
-
 - Evitar a repetição de código
 - Realizar chamadas dinâmicas de algoritmos
 
@@ -241,4 +240,4 @@ console.log( aprovacao([8, 8, 7]) );
 console.log( aprovacao([8, 8, 10, 6]) );
 //console.log( "Média: " + calcularMedia([9, 6]))
 console.log( aprovacao([9, 6]) );
-``` 
+```
